@@ -56,6 +56,57 @@ nav {
   grid-template-columns: repeat(3, 1fr);
 }
 
+.pokemon-card {
+  display: flex;
+  border: '1px solid rgba(0,255,0,0.3)',
+  
+}
+
+.pokemon-image {
+  width: 70px;
+  height: 70px;
+  margin-top: 10px;
+}
+
+.card-body {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 10px 10px 10px 0px;
+  flex: 1;
+}
+
+.card-top {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.pokemon-heart {
+  display: flex;
+  justify-content: end;
+}
+
+.card-top h3 {
+  text-transform: capitalize;
+}
+
+.card-buttom {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-end;
+}
+
+.pokemon-type-text {
+  margin-right: 10px;
+  text-transform: capitalize;
+}
+
+.pokemon-image-container {
+  padding: 0px 5px;
+}
+
 .App {
   text-align: center;
 }
